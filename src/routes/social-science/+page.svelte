@@ -1,9 +1,10 @@
 <script>
     import Carousel from "./Carousel.svelte";
+    import Cite from "$lib/components/Cite.svelte";
 </script>
 
 <main>
-    <div class="container h-full mx-auto flex justify-center items-center w-1/2">
+    <div class="container h-full mx-auto flex justify-center items-center md:w-1/2">
         <div class="space-y-5 mt-5">
 
             <h1>Computational Social Science</h1>
@@ -66,9 +67,9 @@
             allowed for developers and countries to create mobile phone applications that allowed for users to receive
             an early warning for potential covid-19 exposures. This system allowed for phones to connect to other phones
             using bluetooth and exchange a randomly generated code that lasts 20 minutes with each other. When an
-            infection occurred, your codes would be broadcasted to other phones, which would then check if they had
+            infection occurred, infected codes would be broadcast to other phones, which would then check if they had
             exchanged codes with the infected device. This process allowed for an early warning system that didn't
-            expose users' data. [2],[3] The exposure notifications used a computational approach to model and track the
+            expose users' data. <Cite citation={[2, 3]}/> The exposure notifications used a computational approach to model and track the
             spread of the spread of covid-19 through our social society. This system used large amounts of data in the
             forms of random keys, to calculate and track a question that was going through everyone's minds during the
                 pandemic, “Have I been infected by someone?”
@@ -95,7 +96,7 @@
             Neuroscience, Genomics and Biotechnology. These tweets were geolocated either by using the geolocation tag
             from the tweet itself, or from the profiles geolocation. The scientific tweets geolocation were plotted onto
             a map of the world using a heatmap, and sorted by scientific topics. General tweets were also plotted onto a
-            heatmap for comparison as a control. [4] This study applied techniques employed by computational social
+            heatmap for comparison as a control. <Cite citation={4}/> This study applied techniques employed by computational social
             scientists to retrieve and categorize a large data set, and used it to study social phenomena. The researches used
             techniques from sociology...
             </p>
@@ -117,7 +118,7 @@
             the period with the frequency of the word corresponding to a higher value. Each day had a score for each
             category, which was graphed out. Two significant events occurred during the period of study, the 2010 budget
             cuts, which attempted to deal with the current recession. The other major event to occur during the period
-            were riots that broke out on August 6th 2011. [5]
+            were riots that broke out on August 6th 2011. <Cite citation={5}/>
             </p>
 
             <Carousel
@@ -133,7 +134,7 @@
             sadness by a mostly consistent amount. During the 2010 year, after the budget cuts, the level of sadness
             within the country was extremely high and while Christmas was able to lower it by roughly the same amount as
             other years, it was not to the same level. Studying the emotional data provided by tweets during these time
-            periods is an effective way to understand the sentiments shared by UK residents. [5]
+            periods is an effective way to understand the sentiments shared by UK residents. <Cite citation={5}/>
             </p>
         </div>
     </div>

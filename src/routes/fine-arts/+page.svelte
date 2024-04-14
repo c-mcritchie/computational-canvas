@@ -1,5 +1,9 @@
+<script>
+import Cite from "$lib/components/Cite.svelte";
+</script>
+
 <main>
-    <div class="container h-full mx-auto flex justify-center items-center w-1/2">
+    <div class="container h-full mx-auto flex justify-center items-center md:w-1/2">
         <div class="space-y-5 mt-5">
             <h1>Data Art</h1>
             <p>
@@ -27,7 +31,7 @@
             within their enclosure. Their movement data was tracked and used to move the shapes within the animation.
             The sounds were recorded noises made by the mole rats and played back within the animation. Since the
             project has shut down, the data used by the animation is recycled from when the colony was active. This
-            animation is a unique way to represent animal behavioral data without showing the animals directly.
+            animation is a unique way to represent animal behavioral data without showing the animals directly. <Cite citation={12}/>
             </p>
             <a href="http://rat.systems/selfless-society/" type="external" class="btn variant-filled-tertiary">
                 View "A Selfless Society
@@ -45,7 +49,7 @@
             within the US. The data is pulled from Wikidata, a knowledge base able to read by both humans and computers.
             They Rule aims to show just how interconnected the people who run the top companies within the US. There is
             an option to include datasets from US presidents administrations, allowing you to actively visualize the
-            connections and biases that the rules of the country have to these companies. [11], [13]
+            connections and biases that the rules of the country have to these companies. <Cite citation={[11, 13]}/>
             </p>
             <a href="https://theyrule.net/" type="external" class="btn variant-filled-tertiary">
                 View "They Rule"
@@ -61,7 +65,7 @@
             streamer, and every line connecting them is at least 1000 shared chatters who chat in both channels. The
             size of each node is dependent on the number of unique viewers of the stream. Colors and placement of the
             bubbles are determined by an algorithm that detects “communities” of streamers who share large amounts of
-            viewers.
+            viewers. <Cite citation={14}/>
             </p>
             <h3>The Youtube Atlas</h3>
             <p>
@@ -71,7 +75,7 @@
             mark on the video, instead of throwing a chat(??) into a moving river of other chats on Twitch. These maps
             allow for a visual representation of the communities that arise on these platforms. Many of the communities
             that are isolated are language dependent and have shared creators who speak those languages, usually with
-            one or two channels on the outskirts who bridge the gap and receive viewership from multilingual viewers.
+            one or two channels on the outskirts who bridge the gap and receive viewership from multilingual viewers. <Cite citation={14}/>
             </p>
             <div class="flex flex-row">
             <a href="https://twitchatlas.com/" type="external" class="btn variant-filled-tertiary mr-2">
@@ -93,7 +97,7 @@
             result is a masterful blah blah. The final video is extremely engaging and relaxing to watch. Watching the
             planes draw the outline of the United States as planes travel to and from large population centers is blah
             blah. Seeing the time of day affect the frequency of the flights is cool(??), during 1 - 6 am EST most of
-            the points vanish into nothing.
+            the points vanish into nothing. <Cite citation={15}/>
             </p>
             <a href="https://youtu.be/ystkKXzt9Wk?si=YZYqXxrajAmJ78DW" type="external" class="btn variant-filled-tertiary">
                 Watch "Flight Patterns Color"

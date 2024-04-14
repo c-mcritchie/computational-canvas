@@ -1,11 +1,12 @@
 <script lang="ts">
     import type {PageData} from './$types';
+    import Cite from "$lib/components/Cite.svelte";
 
     export let data: PageData;
 </script>
 
 <main>
-    <div class="container h-full mx-auto flex justify-center items-center w-1/2">
+    <div class="container h-full mx-auto flex justify-center items-center md:w-1/2">
         <div class="space-y-5 mt-5">
             <h1>Computational Linguistics</h1>
             <p>
@@ -14,7 +15,7 @@
             Computational linguistics and Natural language processing (NLP) is the study of solving the problems that
             arise during the interpretation or generation of human language through either text or speech. Computational
             linguistics is split into two categories, methods involving text / written language, and methods involving
-            speech. [6]
+            speech. <Cite citation={6}/>
             </p>
 
             <h2>Types of linguistic analysis</h2>
@@ -33,7 +34,7 @@
             After POS tagging and EL, tokens are then grouped into either verb or noun groups. After these processing
             steps are done, traditionally math and statistics was used to pull the information from these strings, but
             recently neural networks trained on huge datasets have been able to outperform the traditional methods in
-            extracting the information from these strings. [6], [7]
+            extracting the information from these strings. <Cite citation={[6, 7]}/>
             </p>
 
             <h2>Linguistic Technologies</h2>
@@ -74,13 +75,13 @@
                 Neural Networks: Neural networks are systems inspired by the human brain. They consist of layers of
                 connected nodes, or “neurons.” These networks “learn” from data by adjusting connections between these
                 nodes. In computational linguistics, neural networks have been used to create vastly more accurate models
-                for tasks such as POS tagging and Entity Linking. [8]
+                for tasks such as POS tagging and Entity Linking. <Cite citation={8}/>
                 </li>
                 <li>
                 Deep Learning: Deep learning is a subset of machine learning that uses neural networks with vast amounts of
                 nodes and layers - where the term ‘deep’ arises. Deep learning neural networks are able to learn from huge
                 amounts of data and once “trained” are able to extract features from new raw input data, which is useful for
-                tasks such as speech recognition and sentiment analysis. [7], [8]
+                tasks such as speech recognition and sentiment analysis. <Cite citation={[7, 8]}/>
                 </li>
                 <li>
                 Transformers: The most significant advancement in machine learning recently has been the development of
@@ -89,14 +90,14 @@
                 strings analyzed using Text Analysis while also focusing the attention on different parts of the input by
                 using an attention mechanism. The input tokens get encoded and run through the neural network, transforming
                 it into data for the decoder to turn back into tokens using probability. Transformers have led to huge
-                improvements during tasks like machine translation and text summarization. [7] - [10]
+                improvements during tasks like machine translation and text summarization. <Cite citation={[7, 8, 9, 10]}/>
                 </li>
                 <li>
                 Pretrained Language Models: Pretrained models like chatGPT and GPT-4 are trained on very large datasets of
                 text data. ChatGPT was trained on 500 billion tokens, and GPT-4 was trained on 13 trillion tokens. After
                 being trained, these models are able to do specific tasks without very much input data being required. This
                 has created versatile models that can handle a large amount of language processing tasks that don't require
-                extra training. [9], [10]
+                extra training. <Cite citation={[9, 10]}/>
                 </li>
             </ul>
 
@@ -110,7 +111,7 @@
                 saw a man with a telescope” could mean that you saw someone while using a telescope, or you saw someone who
                 had a telescope. Different languages and dialects can have their own unique structure, grammar, and
                 vocabulary. Even within a single language, different dialects may use different vocabulary or structure
-                their sentences differently. [6]
+                their sentences differently. <Cite citation={6}/>
             </p>
 
 
