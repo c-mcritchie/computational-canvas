@@ -1,16 +1,16 @@
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5 mt-5">
 		<h1>Computational Canvas: </h1>
-		<h2>Exploring social scinece, humanities, and the fine arts.</h2>
+		<h2>Exploring social science, humanities, and the fine arts.</h2>
 		<h3>Liberal Education 1000 </h3>
 		<hr/>
 		<h3>I am <span class="rainbow">Computer Science</span> Intro here</h3>
 		<h4>Explore my research:</h4>
-		<ul>
-			<li><h5><a class="underline" href="/project-a">PhotoShop Project</a></h5></li>
-			<li><h5><a href="/project-b">Website Project</a></h5></li>
-			<li><h5><a href="/project-c">Video Project</a></h5></li>
-		</ul>
+		<div class="flex flex-row justify-evenly">
+			<a class="btn variant-filled-primary" href="/social-science">Social Science</a>
+			<a class="btn variant-filled-primary" href="/humanities">Humanities</a>
+			<a class="btn variant-filled-primary" href="/fine-arts">Fine Arts</a>
+		</div>
 	</div>
 </div>
 
