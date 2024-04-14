@@ -119,6 +119,13 @@ import Cite from "$lib/components/Cite.svelte";
                 Watch "Flight Patterns Color"
             </a>
 
+            <hr>
+            <h4>Continue Exploring:</h4>
+            <div class="flex flex-row justify-evenly">
+                <a class="btn variant-filled-secondary" href="/social-science">Social Science</a>
+                <a class="btn variant-filled-secondary" href="/humanities">Humanities</a>
+            </div>
+
         </div>
     </div>
 </main>

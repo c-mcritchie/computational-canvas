@@ -145,6 +145,13 @@
             other years, it was not to the same level. Studying the emotional data provided by tweets during these time
             periods is an effective way to understand the sentiments shared by UK residents. <Cite citation={5}/>
             </p>
+
+            <hr>
+            <h4>Continue Exploring:</h4>
+            <div class="flex flex-row justify-evenly">
+                <a class="btn variant-filled-secondary" href="/humanities">Humanities</a>
+                <a class="btn variant-filled-secondary" href="/fine-arts">Fine Arts</a>
+            </div>
         </div>
     </div>
 </main>

@@ -133,6 +133,12 @@
                 their sentences differently. <Cite citation={6}/>
             </p>
 
+            <hr>
+            <h4>Continue Exploring:</h4>
+            <div class="flex flex-row justify-evenly">
+                <a class="btn variant-filled-secondary" href="/social-science">Social Science</a>
+                <a class="btn variant-filled-secondary" href="/fine-arts">Fine Arts</a>
+            </div>
 
         </div>
     </div>
