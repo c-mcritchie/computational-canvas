@@ -22,11 +22,14 @@
         <AppBar>
             <svelte:fragment slot="lead"><a href="/" class="inline-flex">
                 <img alt="Uleth Icon" src={icon} class="w-1/6 h-1/6"/>
-                <p class="ml-2 my-auto font-bold">Cole's Portfolio</p> </a>
+                <p class="ml-2 my-auto font-bold">Computational Canvas</p> </a>
             </svelte:fragment>
-            <a href="/social-science/" class="{$page.url.pathname === '/social-science' ? 'underline' : ''}">Social Science</a>
-            <a href="/humanities/" class="{$page.url.pathname === '/humanities' ? 'underline' : ''}">Humanities</a>
-            <a href="/fine-arts/" class="{$page.url.pathname === '/fine-arts' ? 'underline' : ''}">Fine Arts</a>
+                <a href="/social-science/" class="mx-4 {$page.url.pathname === '/social-science/' ? 'underline' : ''}">Social Science</a>
+                <a href="/humanities/" class="mx-4 {$page.url.pathname === '/humanities/' ? 'underline' : ''}">Humanities</a>
+                <a href="/fine-arts/" class="mx-4 {$page.url.pathname === '/fine-arts/' ? 'underline' : ''}">Fine Arts</a>
+            <svelte:fragment slot="trail">
+                <a href="/sources/" class="mr-4 {$page.url.pathname === '/sources/' ? 'underline' : ''}">Sources</a>
+            </svelte:fragment>
         </AppBar>
     </svelte:fragment>
     <!-- Router Slot -->
