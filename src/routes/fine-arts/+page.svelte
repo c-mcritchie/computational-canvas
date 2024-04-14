@@ -109,7 +109,7 @@ import Cite from "$lib/components/Cite.svelte";
             created the animation by programmatically requesting the data from the FAA every 5 minutes, and had the
             program output a frame representing the data, he then compiled each frame in a video editing software.
             The final video is extremely engaging and relaxing to watch. The sight of planes sketching the contours of
-            the United States, as they shuttle between major hubs, paints a vivid picture of our nation’s bustling activity.
+            the United States, as they shuttle between major hubs, paints a vivid picture of the nation’s bustling activity.
             Observing how the time of day dictates flight patterns is intriguing; in the wee hours of 1 - 6 am EST, the
             skies clear as flight points dwindle to a whisper. Koblin’s visualization captures the pulse of a nation on
             the move, reflecting the ebb and flow of daily life as seen through the skies. It’s a digital tapestry that
@@ -122,12 +122,3 @@ import Cite from "$lib/components/Cite.svelte";
         </div>
     </div>
 </main>
-
-
-<style>
-    ul {
-        @apply leading-loose ml-6;
-        list-style-type: disc;
-
-    }
-</style>
