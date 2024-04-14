@@ -117,10 +117,8 @@
                 extra training. <Cite citation={[9, 10]}/>
                 </li>
             </ul>
-            <!--
-            <div class="card p-2 my-6">
-                <NeuralNetwork/>
-            </div> -->
+
+            <NeuralNetwork/>
 
             <h2>Linguistic Challenges</h2>
             <p>
