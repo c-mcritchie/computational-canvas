@@ -59,6 +59,15 @@
             </p>
 
             <h5>Talk about social science aspects</h5>
+            <p>Computational Social Science pulls from a few disciplines like
+            economics, sociology, culturomics, cliodynamics, and social media analysis that
+            use computational methods to study social phenomena. Economics uses computational methods to model
+            economic systems and behaviors. Computational sociology uses large datasets to social phenomena and
+            interactions. Culturomics uses computational linguistics and statistics to analyze cultural trends and
+            evolution. Cliodynamics uses mathematical modeling and computational methods to study historical processes
+            and social change. Social media analysis uses data mining methods to extract data from social media and
+            extract insights from the interactions of users.
+            </p>
 
             <h2>Case studies</h2>
             <h4>Case 1:</h4>
@@ -108,7 +117,7 @@
                     afterPath=" heatmap.png"
                     title={true}
             />
-            <span class="text-gray-500">1. Scientific Tweets, 2. Categorized Scientific Tweets, 3. All tweets</span>
+            <span class="text-gray-500">1. Scientific Tweets, 2. Categorized Scientific Tweets, 3. All tweets <Cite citation={4}/></span>
 
             <h4>Case 3:</h4>
             <p>
@@ -126,7 +135,7 @@
                 beforeAlt="A map of the resulting "
                 afterAlt=" emotion levels across the UK."
                 afterPath=" Graph.png"
-            />
+            /><Cite citation={5}/>
 
             <p>
             Events like Halloween, Christmas, Valentines day, and Easter all have noticeable repeatable “multiplicative”

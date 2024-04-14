@@ -42,6 +42,7 @@
     "@floating-ui/dom": "1.6.3",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "animejs": "^3.2.2",
     "svelte-fa": "^4.0.2"
   }
 }

@@ -1,8 +1,6 @@
 <script lang="ts">
-    import type {PageData} from './$types';
     import Cite from "$lib/components/Cite.svelte";
-
-    export let data: PageData;
+    import NeuralNetwork from "./NeuralNetwork.svelte";
 </script>
 
 <main>
@@ -38,27 +36,46 @@
             </p>
 
             <h2>Linguistic Technologies</h2>
-            <p>Advancements within this field has led to many new tools and innovations, (talk about disabilities n stuff)</p>
+            <p>
+                Advancements in computational linguistics and NLP have sparked a wave of innovative tools and technologies,
+                revolutionizing how humans interact with computers. From the seamless translation of languages to the
+                nuanced analysis of sentiment in text, these developments have not only facilitated cross-cultural
+                communication but also empowered individuals with disabilities by enabling hands-free operation of devices
+                through speech recognition.
+            </p>
             <ul>
              <li>
-                translators
+                 Translators: These tools use algorithms and datasets to translate text or speech from one language to another,
+                 facilitating communication between individuals who speak different languages. They have revolutionized
+                 cross-cultural communication and made global collaboration more accessible.
              </li>
                 <li>
-                sentiment analysis
+                    Sentiment analysis: This technology analyzes text to determine the sentiment or emotional tone
+                    expressed within it, providing valuable insights for businesses, marketers, and researchers.
+                    It helps companies understand customer feedback, social media sentiment, and public opinion trends.
                 </li>
                 <li>
-                speech recognition
+                    Speech recognition: Speech recognition software converts spoken language into text,
+                    enabling hands-free operation of devices and efficient transcription of spoken content.
+                    It has greatly improved accessibility for individuals with disabilities and streamlined tasks in
+                    various industries such as healthcare and customer service.
                 </li>
                 <li>
-                 Chat bots and text generators
+                    Chat bots and text generators: These AI-driven systems simulate human conversation or generate text
+                    based on predefined rules or machine learning algorithms. They are used for customer support,
+                    information retrieval, and content creation, enhancing efficiency and scalability in various applications.
                 </li>
                 <li>
-                information extraction / text summarization
+                    Information extraction / text summarization: These techniques involve extracting relevant information
+                    or summarizing large amounts of text automatically. They are valuable for extracting key insights
+                    from documents, summarizing news articles, and generating concise reports, saving time and effort in
+                    information processing tasks.
                 </li>
                 <li>
-                    Natural language interfaces: These interfaces allow for humans to interact with software using
-                    natural language or spoken words instead of a visual user interface. This technology is used in
-                    virtual assistants like Siri, Alexa, and Google Assistant.
+                    Natural language interfaces: These interfaces allow users to interact with software using natural
+                    language or spoken words, eliminating the need for traditional graphical user interfaces.
+                    They power virtual assistants like Siri, Alexa, and Google Assistant, providing users with intuitive
+                    and convenient ways to access information and perform tasks.
                 </li>
             </ul>
 
@@ -100,8 +117,10 @@
                 extra training. <Cite citation={[9, 10]}/>
                 </li>
             </ul>
-
-            <h5>Maybe Neural Network Animation</h5>
+            <!--
+            <div class="card p-2 my-6">
+                <NeuralNetwork/>
+            </div> -->
 
             <h2>Linguistic Challenges</h2>
             <p>
@@ -124,6 +143,5 @@
     ul {
         @apply leading-loose ml-6;
         list-style-type: disc;
-
     }
 </style>
