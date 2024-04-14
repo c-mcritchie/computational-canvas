@@ -1,6 +1,7 @@
 <script>
     import Carousel from "./Carousel.svelte";
     import Cite from "$lib/components/Cite.svelte";
+    import DataMineDiagram from "./DataMineDiagram.svelte";
 </script>
 
 <main>
@@ -93,7 +94,7 @@
             and responses of audiences.
             </p>
 
-            <h5>Pipeline diagram</h5>
+            <DataMineDiagram/>
 
             <h4>Case 2:</h4>
             <p>
